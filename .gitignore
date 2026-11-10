@@ -1,4 +1,58 @@
+# Ambiente
 .env
+.env.*
+!.env.example
 .venv/
+venv/
+
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# PostgreSQL / backups
+*.backup
+*.dump
+*.sql.gz
+
+# Dados brutos e intermediários
 data/raw/
+data/interim/
+data/processed/
+
+# Outputs gerados
+outputs/
+
+# Arquivos grandes geoespaciais
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+
+# Temporários
+*.tmp
+*.temp
+~$*
+
+# Projetos QGIS locais
+*.qgz
+*.qgs
