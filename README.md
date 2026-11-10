@@ -8,6 +8,15 @@ O projeto integra dados municipais e espaciais para identificar, comparar e expl
 
 ---
 
+## Apresentação executiva
+
+Uma apresentação executiva do VerdePrioriza está disponível nos formatos:
+
+- [Ver apresentação em PDF](docs/presentation/VerdePrioriza_10F_Portfolio.pdf)
+- [Baixar apresentação em PowerPoint](docs/presentation/VerdePrioriza_10F_Portfolio.pptx)
+
+A apresentação resume o problema, as fontes de dados, a arquitetura, a metodologia de priorização, a validação espacial, os principais resultados, a explicabilidade, o dashboard e os diferenciais técnicos do projeto.
+
 ## Visão geral
 
 O VerdePrioriza foi estruturado em módulos sucessivos de ingestão, processamento, análise, priorização espacial, validação e publicação.
@@ -145,7 +154,10 @@ verde_prioriza/
 │   ├── METODOLOGIA.md
 │   ├── EXECUCAO.md
 │   ├── LIMITACOES.md
-│   └── images/
+│   ├── images/
+│   └── presentation/
+│       ├── VerdePrioriza_10F_Portfolio.pdf
+│       └── VerdePrioriza_10F_Portfolio.pptx
 │
 ├── .env
 ├── .gitignore
@@ -191,6 +203,9 @@ Explicação individual das áreas, incluindo:
 
 ### 10D — Dashboard final
 Interface integrada para exploração e comunicação dos resultados.
+
+### 10F — Portfólio e apresentação
+Apresentação executiva do projeto em PDF e PowerPoint, preparada para portfólio profissional, entrevistas, parceiros e apresentações institucionais.
 
 ---
 
@@ -240,7 +255,8 @@ Módulo 9  — Priorização espacial.............. concluído e validado
 10B       — Relatório executivo............... concluído
 10C       — Explicabilidade................... concluído
 10D       — Dashboard final integrado......... concluído
-10E       — Documentação e publicação......... em consolidação
+10E       — Documentação e publicação......... concluído
+10F       — Portfólio e apresentação........... concluído
 ```
 
 ---
