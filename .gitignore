@@ -56,3 +56,8 @@ outputs/
 # Projetos QGIS locais
 *.qgz
 *.qgs
+
+# Estruturas e arquivos legados locais
+dashboard/
+SP_Municipios_2025.zip
+Projeto - Esboço Inicial_20 08 2026.pdf
